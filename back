@@ -1,0 +1,7 @@
+#! /bin/bash
+
+numb=$1
+
+for (( i=0; i < ${numb}; i=i+1)); do
+cd ../
+done
